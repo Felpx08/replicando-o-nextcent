@@ -45,7 +45,7 @@
 --font-family: "inter";
 --font-headline-1-size: 64px;
 --font-headline-2-size: 36px;
---font-headline-2-size: 600;
+--font-headline-2-weight: 600;
 --font-headline-4-size: 20px;
 --font-body2-weight-regular: 400;
 --font-body3-size: 14px;
@@ -55,4 +55,25 @@
    
 }
 
+p {
+  color: var(--color-neutral-Grey)
+}
 
+
+.btn-primary{
+  padding: 14px 32px;
+  background-color: var(--color-primary);
+  border-radius: 4px;
+  align-self: flex-start;
+  margin-top: 16px;
+}
+
+.btn-primary a {
+  color: var(--color-neutral-White)
+}
+
+.h2{
+  color: var(--color-neutral-D_Grey);
+  font-size: var(--font-headline-2-size);
+  font-weight: var(--font-headline-2-weight);
+}
