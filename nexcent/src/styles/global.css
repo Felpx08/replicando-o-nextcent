@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+/* Define variáveis CSS globais (custom properties) */
+:root {
+  /* --- Neutral --- */
+  --color-neutral-black: #263238;
+  --color-neutral-D_Grey: #4D4D4D;
+  --color-neutral-Grey: #717171;
+  --color-neutral-L_Grey: #89939E;
+  --color-neutral-Grey-blue: #ABBED1;
+  --color-neutral-Silver: #F5F7FA;
+  --color-neutral-White: #FFFFFF;
+
+  /* --- Primary --- */
+  --color-primary: #4CAF4F;
+  --color-secondary: #263238;
+  --color-info: #2194f3;
+
+  /* --- Color Shade --- */
+  --color-primary-shade-1: #43A046;
+  --color-primary-shade-2: #388E3B;
+  --color-primary-shade-3: #2D7D31;
+  --color-primary-shade-4: #1B5E1F;
+  --color-primary-shade-5: #103E13;
+
+  /* --- Color Tint --- */
+  --color-primary-tint-1: #66BB69;
+  --color-primary-tint-2: #81C784;
+  --color-primary-tint-3: #A5D6A7;
+  --color-primary-tint-4: #C8E6C9;
+  --color-primary-tint-5: #E8F5E9;
+
+  /* --- Cores de Action --- */
+  --color-action-warning: #FBC02D;
+  --color-action-error: #E53935;
+  --color-action-success: #2E7D31;
+
+/* Configurações fontes */
+--font-family: "inter";
+--font-headline-1-size: 64px;
+--font-headline-2-size: 36px;
+--font-headline-2-size: 600;
+--font-headline-4-size: 20px;
+--font-body2-weight-regular: 400;
+--font-body3-size: 14px;
+
+
+
+   
+}
+
+

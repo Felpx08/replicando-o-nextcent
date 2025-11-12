@@ -1,0 +1,111 @@
+@import url('./global.css');
+
+/* ---- HEADER ---- */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0px;
+    background-color: var(--color-neutral-Silver);
+
+}
+
+.logo-header img {
+    width: 154px;
+    height: 24px;
+}
+
+.nav-header ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.nav-header ul li a {
+    color: var(--color-neutral-black);
+    font-weight: var(--font-body2-weight-regular);
+    transition: 0.3s;
+}
+
+.nav-header ul li a:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-btn-header button {
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+.container-btn-header .btn-login {
+    background: var(--color-neutral-Silver);
+}
+
+.container-btn-header .btn-login a{
+    color: var(--color-primary);
+}
+
+.container-btn-header .btn-sign-up {
+    background-color: var(--color-primary);
+}
+
+.container-btn-header .btn-sign-up a{
+    color: var(--color-neutral-White);
+}
+
+/* ---- FIM HEADER ---- */
+
+/* ---- MAIN ---- */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 104px; 
+    padding: 96px 0px;   
+    background-color: var(--color-neutral-Silver);
+}
+
+.content-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 657px;
+    
+}
+
+.content-hero h1{
+    font-size: var(--font-headline-1-size);
+}
+
+.content-hero span {
+    color: var(--color-primary);
+    display: block; 
+}
+
+.content-hero .btn-primary {
+    width: 128px;
+    height: 52px;
+    padding: 32px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.content-hero .btn-primary {
+    background-color: var(--color-primary);
+}
+
+.content-hero .btn-primary a{
+    color: var(--color-neutral-White);
+}
+
+/* ---- FIM MAIN ---- */
+
+
